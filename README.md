@@ -15,6 +15,7 @@ This version focuses on combining open-world exploration with turn-based combat 
 ### Open World
 
 - Open-world movement system with collision detection
+- Custom procedural animation system for all characters
 - Enemy AI with proximity-based aggro and delayed attack gauge system before combat initiation
 - Enemies return to their original position after disengaging
 - Pet companion system with selectable buffs
