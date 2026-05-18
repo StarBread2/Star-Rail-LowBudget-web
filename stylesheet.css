@@ -1,0 +1,17 @@
+#Canvas
+{
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+#Gwapo
+{
+    font-size: 50px;
+}
+
+
+    
