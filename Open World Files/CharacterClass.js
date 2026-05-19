@@ -1602,7 +1602,7 @@ class Character_2D_Enemy
 
 
 
-let Furina_Details_TurnBased = makeCharacterDetails_TurnBased ( 1000, 100, 84, 0.194, 40, 50, 10 )
+let Furina_Details_TurnBased = makeCharacterDetails_TurnBased ( 1000, 100, 84, 0.194, 120, 50, 1.5 )
 let YellowPusa1_Details_TurnBased = makeCharacterDetails_TurnBased_Enemy ( true, true, 1000, 83, 12, 200, 83, 12 );
 let YellowPusa2_Details_TurnBased = makeCharacterDetails_TurnBased_Enemy ( true, true, 97, 83, 12, 97, 83, 12 );
 

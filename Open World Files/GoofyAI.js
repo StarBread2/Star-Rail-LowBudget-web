@@ -61,7 +61,7 @@ class AIFollow
         this.goRight = false;
 
         //VECTOR VISUALIZATION
-        this.displayVector = true;
+        this.displayVector = false;
         this.arrowSize = createVector2 ( 50, 50 );
 
         //ACTUAL LOCATION OF CHAR ( MC NIGgA )

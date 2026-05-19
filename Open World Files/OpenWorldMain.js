@@ -7,8 +7,8 @@ let INOPENWORLD = true;
 let intersect_YELLOWPUSA_2D;
 // let intersect_YELLOWPUSA_2D_2;
 
-
-let GAME_STAGE = "MAP1"; 
+//MAP1, empty string
+let GAME_STAGE = ""; 
 
 function animate_OPWorld()
 {
