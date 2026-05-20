@@ -105,3 +105,16 @@ https://drive.google.com/drive/folders/11BV5d_SsmG4N58jPBt1lk103mRaErtxZ?usp=sha
 Place the extracted files inside:
 ```text
 /Open World Files/
+```
+
+
+## Screenshots
+### Open World
+![Open World1](./preview/OpenWorld1.gif)
+![Open World2](./preview/OpenWorld2.gif)
+### Turn-Based Combat
+<p align="center">
+  <img src="./preview/TurnBased1.png" width="45%" />
+  <img src="./preview/TurnBased2.png" width="45%" />
+</p>
+
