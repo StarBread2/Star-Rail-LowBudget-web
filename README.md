@@ -1,5 +1,7 @@
 # Open World + Turn-Based RPG Prototype (HTML, CSS, JavaScript)
 
+![Open World3](./preview/OpenWorld3.png)
+
 ## Description
 
 Experimental RPG prototype inspired by Honkai: Star Rail, rebuilt from the original SFML C++ version into a browser-based project using only vanilla HTML, CSS, and JavaScript, no frameworks or external game engines.
@@ -48,10 +50,11 @@ This version focuses on combining open-world exploration with turn-based combat 
 | --- | --- |
 | **W, A, S, D** | Player movement |
 | **Shift** | Run |
+| **Left Click** | Attack |
 | **1, 2, 3, 4** | Change pet |
 | **↑ ↓ ← →** | 2nd player movement |
 | **/** | 2nd player run |
-| **Left Click** | Attack |
+| **Numpad 0** | Player 2 attack |
 | **Enter** | Exit turn-based mode (after winning) |
 
 ### Turn-Based Combat
