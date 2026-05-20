@@ -1329,19 +1329,19 @@ class Character_2D_Enemy
     
             if( this.canMove )
             {
-                if(isKeyPressed('ArrowUp') || this.AI.goUp )
+                if(isKeyPressed('i') || this.AI.goUp )
                     {
                         this.checkIfRunning_Enemy_Yellow_Pusa (  )
             
                         this.velocityY -= this.acceleration;
                 }
-                if(isKeyPressed('ArrowDown') || this.AI.goDown )
+                if(isKeyPressed('k') || this.AI.goDown )
                 {
                     this.checkIfRunning_Enemy_Yellow_Pusa (  )
         
                     this.velocityY += this.acceleration;
                 }
-                if(isKeyPressed('ArrowLeft') || this.AI.goLeft )//UNFLIPPED
+                if(isKeyPressed('j') || this.AI.goLeft )//UNFLIPPED
                 {
                     this.checkIfRunning_Enemy_Yellow_Pusa (  )
         
@@ -1360,7 +1360,7 @@ class Character_2D_Enemy
                     this.recordedValue = this.canvasLocX 
                     this.velocityX -= this.acceleration;
                 }
-                if(isKeyPressed('ArrowRight')  || !this.dissapearNotFixed  || this.AI.goRight ) //FLIPPED
+                if(isKeyPressed('l')  || !this.dissapearNotFixed  || this.AI.goRight ) //FLIPPED
                 {
                     this.checkIfRunning_Enemy_Yellow_Pusa (  )
         
@@ -1602,9 +1602,9 @@ class Character_2D_Enemy
 
 
 
-let Furina_Details_TurnBased = makeCharacterDetails_TurnBased ( 1000, 100, 84, 0.194, 120, 50, 1.5 )
+let Furina_Details_TurnBased = makeCharacterDetails_TurnBased ( 1000, 100, 84, 0.194, 40, 50, 1.5 )
 let YellowPusa1_Details_TurnBased = makeCharacterDetails_TurnBased_Enemy ( true, true, 1000, 83, 12, 200, 83, 12 );
-let YellowPusa2_Details_TurnBased = makeCharacterDetails_TurnBased_Enemy ( true, true, 97, 83, 12, 97, 83, 12 );
+let YellowPusa2_Details_TurnBased = makeCharacterDetails_TurnBased_Enemy ( true, true, 500, 83, 12, 970, 83, 12 );
 
 const FURINA_2D = new Character_2D( images[33], 600, 600, true, 0.52, 0.20, 0, 0, createVector2 ( 0, 0 ), 0.85, createVector2 ( 1000, 1000 ), Furina_Details_TurnBased )
 const FURINA_2D_P2 = new Character_2D( images[33], 600, 600, true, 0.52, 0.20, 2000, 2000 )
