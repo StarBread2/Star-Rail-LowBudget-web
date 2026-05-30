@@ -1,6 +1,5 @@
-# Open World + Turn-Based RPG Prototype (HTML, CSS, JavaScript)
-
 ![Open World3](./preview/OpenWorld3.png)
+# Open World + Turn-Based RPG Prototype (HTML, CSS, JavaScript)
 
 ## Description
 
